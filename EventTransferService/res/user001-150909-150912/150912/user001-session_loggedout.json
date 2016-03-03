@@ -1,0 +1,50 @@
+{
+	"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+	"@type" : "http://purl.imsglobal.org/caliper/v1/SessionEvent",
+	"actor" : {
+		"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+		"@type" : "http://purl.imsglobal.org/caliper/v1/lis/Person",
+		"name" : "Son",
+		"description" : null,
+		"extensions" : {
+		},
+		"dateCreated" : 1410259978000,
+		"dateModified" :1410259978000,
+		"@id" : "sample.user001" 
+	},
+	"action" : "http://purl.imsglobal.org/vocab/caliper/v1/action#LoggedOut",
+	"object" : {
+		"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+		"@type" : "http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+		"name" : "Test Application",
+		"description" : null,
+		"extensions" : {
+		},
+		"dateCreated" :1410259978000,
+		"dateModified" : 1410259978000,
+		"@id" : "sample.application001" 
+	},
+	"target" : null,
+	"generated" : {
+		"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+		"@type" : "http://purl.imsglobal.org/caliper/v1/Session",
+		"name" : null,
+		"description" : null,
+		"extensions" : {
+		},
+		"dateCreated" :1442086261000,
+		"dateModified" :1442086261000,
+		"@id" : "sample.Session006",
+		"actor" : null,
+		"startedAtTime" : null,
+		"endedAtTime" : null,
+		"duration" : null 
+	},
+	"startedAtTime" : 1442088774000,
+	"endedAtTime" : null,
+	"duration" : null,
+	"edApp" : null,
+	"group" : null,
+	"membership" : null,
+	"federatedSession" : null 
+}

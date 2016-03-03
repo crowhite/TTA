@@ -1,0 +1,24 @@
+{
+"@context":"http://purl.imsglobal.org/ctx/caliper/v1/SessionEvent",
+"@type":"http://purl.imsglobal.org/caliper/v1/SessionEvent",
+"action":"session.loggedOut",
+"startedAtTime":1436436852000,
+"actor":{
+   "@id":"4925656",
+   "@type":"http://purl.imsglobal.org/caliper/v1/lis/Person",
+    "name":"Heo",
+    "properties":{},
+    "lastModifiedTime":1435810532000
+},
+"object":{
+	"@id":"sample.application001",
+	"@type":"http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+	"name":"Test Application",
+	"lastModifiedTime":1435712604000
+},
+"target":{
+	"@id":"sample.4925656.Session009",
+	"@type":"http://purl.imsglobal.org/caliper/v1/Session",
+	"lastModifiedTime":1436436014000
+	}
+}

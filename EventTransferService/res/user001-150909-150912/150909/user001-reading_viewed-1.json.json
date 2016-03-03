@@ -1,0 +1,55 @@
+{
+	"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+	"@type" : "http://purl.imsglobal.org/caliper/v1/ReadingEvent",
+	"actor" : {
+		"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+		"@type" : "http://purl.imsglobal.org/caliper/v1/lis/Person",
+		"name" : "Son",
+		"description" : null,
+		"extensions" : {
+		},
+		"dateCreated" : 1410259978000,
+		"dateModified" :1410259978000,
+		"@id" : "sample.user001" 
+	},
+	"action" : "http://purl.imsglobal.org/vocab/caliper/v1/action#Viewed",
+	"object" : {
+		"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+		"@type" : "http://purl.imsglobal.org/caliper/v1/Reading",
+		"name" : "Page 11",
+		"description" : null,
+		"extensions" : {
+		},
+		"dateCreated" : 1410259978000,
+		"dateModified" :1410259978000,
+		"@id" : "http://intercode.iptime.org:81/epub/2015/06/UCJXNOIZFK/80209/epub/ops/content/p011.xhtml",
+		"objectType" : [
+		],
+		"alignedLearningObjective" : [
+		],
+		"keywords" : [
+		],
+		"isPartOf" : null,
+		"datePublished" : null,
+		"version" : null 
+	},
+	"target" : null,
+	"generated" : null,
+	"startedAtTime" : 1441806660000,
+	"endedAtTime" : null,
+	"duration" : null,
+	"edApp" : {
+		"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/Context",
+		"@type" : "http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+		"name" : "Test Application",
+		"description" : null,
+		"extensions" : {
+		},
+		"dateCreated" : 1439811075000,
+		"dateModified" : 1439811075000,
+		"@id" : "sample.application001" 
+	},
+	"group" : null,
+	"membership" : null,
+	"federatedSession" : null 
+}

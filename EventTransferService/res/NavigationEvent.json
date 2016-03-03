@@ -1,0 +1,64 @@
+{ 
+	"@context" : "http://purl.imsglobal.org/ctx/caliper/v1/NavigationEvent", 
+	"@type" : "http://purl.imsglobal.org/caliper/v1/NavigationEvent", 
+	"startedAtTime" : 1434885377309, 
+	"endedAtTime" : 1434885377309, 
+	"duration" : 0, 
+	"action" : "navigated to", 
+	"actor" : { 
+		"@id" : "keris1", 
+		"@type" : "http://purl.imsglobal.org/caliper/v1/lis/Person", 
+		"name" : "Son", 
+		"lastModifiedTime" :1434885373672, 
+		"properties" : {  } 
+	}, 
+	"object" : { 
+		"@id" : "http://intercode.iptime.org:81/epub/2015/06/QBYTEBUVMJ/80208/epub/ops/content/cover.xhtml", 
+		"@type" : "http://www.idpf.org/epub/vocab/structure/#chapter", 
+		"name" : "-Page.", 
+		"keyword" : [ "epub", "edupub" ], 
+		"properties" : {  }, 
+		"lastModifiedTime" : 1434885377308, 
+		"objectType" : [ ], 
+		"alignedLearningObjective" : [ ], 
+		"partOf" : {  } 
+	}, 
+	"navigatedForm" : { 
+		"@id" : "next-button", 
+		"@type" : "http://purl.imsglobal.org/caliper/v1/DigitalResource", 
+		"name" : "next-button", 
+		"properties" : {  }, 
+		"lastModifiedTime" : 1434885377308, 
+		"objectType" : [ ], 
+		"alignedLearningObjective" : [ ], 
+		"keyword" : [ ], "partOf" : {  } 
+	}, 
+	"edApp" : { 
+		"@id" : "http://intercode.iptime.org/software/sensor-simulator", 
+		"@type" : "http://purl.imsglobal.org/caliper/v1/SoftwareApplication", 
+		"name" : "Sensor API Simulator", 
+		"properties" : {  }, 
+		"lastModifiedTime" : 1434885377309
+	}, 
+	"group" : { 
+		"@id" : "0b0773f3-7ab2-4911-a398-195598db63bf", 
+		"@type" : "http://purl.imsglobal.org/caliper/v1/lis/Group", 
+		"organization" : { 
+			"@id" : "intercode", 
+			"@type" : "http://purl.imsglobal.org/caliper/v1/lis/Organization", 
+			"name" : "intercode", 
+			"properties" : {  }, 
+			"lastModifiedTime" : 1434885373672 
+		}, 
+		"courseSection" : { 
+			"@id" : "Resource Space", 
+			"@type" : "http://purl.imsglobal.org/caliper/v1/lis/CourseSection", 
+			"name" : "KERIS - Readium - Digital Text Book Sample - Lesson 1", 
+			"properties" : {  }, 
+			"lastModifiedTime" : 1434885373672
+		}, 
+		"properties" : {  }, 
+		"lastModifiedTime" : 1434885377309
+	}, 
+	"generated" : null 
+}

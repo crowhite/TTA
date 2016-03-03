@@ -1,0 +1,58 @@
+{
+  "@context":"http://purl.imsglobal.org/ctx/caliper/v1/ViewEvent",
+  "@type":"http://purl.imsglobal.org/caliper/v1/ViewEvent",
+  "actor":{
+   "@id":"4925657",
+   "@type":"http://purl.imsglobal.org/caliper/v1/lis/Person",
+    "name":"Ryu",
+    "properties":{},
+    "lastModifiedTime":1435810532000
+  },
+  "action":"viewed",
+  "object":{
+    "@id":"http://intercode.iptime.org:81/epub/2015/06/UCJXNOIZFK/80209/epub/ops/content/p011.xhtml",
+    "@type":"http://purl.imsglobal.org/caliper/v1/Reading",
+    "name":"Page 11",
+    "properties":{},
+    "objectType":[],
+    "alignedLearningObjective":[],
+    "keyword":[],
+    "partOf":{},
+    "lastModifiedTime":1418283997868,
+    "frame":null
+  },
+  "generated":null,
+  "edApp"{
+    "@id":"sample.application001",
+    "@type":"http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+    "name":"Test Application",
+    "properties":{},
+    "lastModifiedTime":1435712604000
+  },
+  "group":{
+    "@id":"http://www.intercode.kr/group",
+    "@type":"http://purl.imsglobal.org/caliper/v1/Group",
+    "name":"group",
+    "properties":{},
+    "lastModifiedTime":1418283997868,
+    "organization": {
+      "@id":"http://www.intercode.kr/part",
+      "@type":"http://purl.imsglobal.org/caliper/v1/lis/Organization",
+      "name":"team a",
+      "properties":{},
+      "lastModifiedTime":1418283997868,
+      "parentOrg":{}
+    },
+    "courseSection": {
+      "@id":"http://www.intercode.kr/course/section1",
+      "@type":"http://purl.imsglobal.org/caliper/v1/lis/CourseSection",
+      "name":"society",
+      "properties":{},
+      "lastModifiedTime":1418283997868,
+      "parentCourse":{}
+    }
+  },
+  "startedAtTime":1436434240000,
+  "endedAtTime":1436435185000,
+  "duration":945
+}

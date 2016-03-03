@@ -1,0 +1,66 @@
+﻿{
+  "@context":"http://purl.imsglobal.org/ctx/caliper/v1/AssessmentItemEvent",
+  "@type":"http://purl.imsglobal.org/caliper/v1/AssessmentItemEvent",
+  "actor":{
+    "@id":"4925653",
+    "@type":"http://purl.imsglobal.org/caliper/v1/lis/Person",
+    "name":"Son",
+    "properties":{},
+    "lastModifiedTime":1435724132000
+  },
+  "action":"completed",
+  "object":{
+    "@id": "http://www.intercode.kr/contents/assessment/item2",
+        "@type": "http://purl.imsglobal.org/caliper/v1/AssessmentItem",
+        "name": "Quiz p13-2",
+        "objectType": [],
+        "properties": {},
+        "alignedLearningObjective": [],
+        "keyword": [],
+        "partOf": "http://www.intercode.kr/contents/assessment",
+        "lastModifiedTime": 0,
+        "dateCreated": null,
+        "datePublished": null,
+        "dateToActivate": null,
+        "dateToShow": null,
+        "dateToStartOn": null,
+        "dateToSubmit": null,
+        "maxAttempts": 2,
+        "maxSubmits": 2,
+        "maxScore": 1.0 
+  },
+  "generated":null,
+  "edApp"{
+    "@id":"http://www.intercode.kr/software/quiz-viwer",
+    "@type":"http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+    "name":"Quiz Viwer",
+    "properties":{},
+    "lastModifiedTime":1418283997868
+  },
+  "group":{
+    "@id":"http://www.intercode.kr/group",
+    "@type":"http://purl.imsglobal.org/caliper/v1/Group",
+    "name":"group",
+    "properties":{},
+    "lastModifiedTime":1418283997868,
+    "organization": {
+      "@id":"http://www.intercode.kr/part",
+      "@type":"http://purl.imsglobal.org/caliper/v1/lis/Organization",
+      "name":"team a",
+      "properties":{},
+      "lastModifiedTime":1418283997868,
+      "parentOrg":{}
+    },
+    "courseSection": {
+      "@id":"http://www.intercode.kr/course/section1",
+      "@type":"http://purl.imsglobal.org/caliper/v1/lis/CourseSection",
+      "name":"society",
+      "properties":{},
+      "lastModifiedTime":1418283997868,
+      "parentCourse":{}
+    }
+  },
+  "startedAtTime":1436676251000,
+  "endedAtTime":1436676821000,
+  "duration":570
+}

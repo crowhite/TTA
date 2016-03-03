@@ -1,0 +1,24 @@
+{
+"@context":"http://purl.imsglobal.org/ctx/caliper/v1/SessionEvent",
+"@type":"http://purl.imsglobal.org/caliper/v1/SessionEvent",
+"action":"session.loggedOut",
+"startedAtTime":1436692816000,
+"actor":{
+    "@id":"4925653",
+    "@type":"http://purl.imsglobal.org/caliper/v1/lis/Person",
+    "name":"Son",
+    "properties":{},
+    "lastModifiedTime":1435724132000
+},
+"object":{
+	"@id":"sample.application001",
+	"@type":"http://purl.imsglobal.org/caliper/v1/SoftwareApplication",
+	"name":"Test Application",
+	"lastModifiedTime":1435712604000
+},
+"target":{
+	"@id":"sample.user001.Session017",
+	"@type":"http://purl.imsglobal.org/caliper/v1/Session",
+	"lastModifiedTime":1436690720000
+	}
+}
