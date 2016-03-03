@@ -8,7 +8,6 @@ import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.E
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.Event;
 import kr.ac.uos.ai.eventTransferService.transferCore.Configuration;
 
-import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;

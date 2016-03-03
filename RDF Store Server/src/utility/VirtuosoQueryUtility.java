@@ -4,7 +4,6 @@ import com.hp.hpl.jena.rdf.model.Model;
 import utility.Constant;
 import view.ServerLogger;
 
-import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
