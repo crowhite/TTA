@@ -4,7 +4,6 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
-
 import kr.ac.uos.ai.eventTransferService.informationModel.utilityPackage.RDFStringBuilder;
 import kr.ac.uos.ai.eventTransferService.transferCore.Configuration;
 

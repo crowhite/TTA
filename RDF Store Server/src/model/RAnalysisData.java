@@ -1,7 +1,5 @@
 package model;
 
-import java.util.LinkedList;
-
 public class RAnalysisData {
 	private String developer;
 	private String version;

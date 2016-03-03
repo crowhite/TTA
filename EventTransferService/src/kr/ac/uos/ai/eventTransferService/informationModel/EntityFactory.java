@@ -1,12 +1,8 @@
 package kr.ac.uos.ai.eventTransferService.informationModel;
 
 
-import java.util.LinkedList;
-
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.*;
-import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.AnnotationEventBookmarked;
 import kr.ac.uos.ai.eventTransferService.informationModel.translateContext.JSONContext;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

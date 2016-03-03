@@ -1,15 +1,13 @@
 package event;
 
-import static utility.Constant.*;
+import com.hp.hpl.jena.rdf.model.Model;
+import jms.JMSSender;
+import model.TransferContext;
+import model.TransferMassage;
 
 import java.util.Hashtable;
 
-import jms.JMSSender;
-
-import com.hp.hpl.jena.rdf.model.Model;
-
-import model.TransferContext;
-import model.TransferMassage;
+import static utility.Constant.*;
 
 public class SessionManager {
 	private static SessionManager sessionManager = new SessionManager();

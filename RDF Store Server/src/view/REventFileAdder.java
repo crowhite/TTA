@@ -1,19 +1,12 @@
 package view;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.LinkedList;
-
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.JTextField;
-import javax.swing.table.DefaultTableModel;
-
 import control.ButtonListener;
 import model.RAnalysisData;
 import utility.Constant;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class REventFileAdder extends JFrame implements ActionListener{
 

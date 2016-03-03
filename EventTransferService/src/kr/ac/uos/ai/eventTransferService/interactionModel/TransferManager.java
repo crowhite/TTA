@@ -1,26 +1,17 @@
 package kr.ac.uos.ai.eventTransferService.interactionModel;
 
 
-
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.List;
-import java.util.Map;
-
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
 import kr.ac.uos.ai.eventTransferService.exchangemodel.RDFMessage;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Entity;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.Event;
 import kr.ac.uos.ai.eventTransferService.transferCore.Configuration;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
+import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 
 public class TransferManager {

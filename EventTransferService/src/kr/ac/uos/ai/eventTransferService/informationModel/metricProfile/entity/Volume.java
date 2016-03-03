@@ -1,8 +1,8 @@
 package kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity;
 
-import java.util.LinkedList;
-
 import kr.ac.uos.ai.eventTransferService.informationModel.utilityPackage.RDFStringBuilder;
+
+import java.util.LinkedList;
 
 public class Volume extends Entity{
 

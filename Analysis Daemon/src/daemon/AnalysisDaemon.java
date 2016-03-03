@@ -1,5 +1,12 @@
 package daemon;
 
+import analysis.Analysis;
+import jms.JMSReceiver;
+import jms.RecievedData;
+import org.apache.commons.daemon.Daemon;
+import org.apache.commons.daemon.DaemonContext;
+import org.apache.commons.daemon.DaemonInitException;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -7,15 +14,6 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import jms.JMSReceiver;
-import jms.RecievedData;
-
-import org.apache.commons.daemon.Daemon;
-import org.apache.commons.daemon.DaemonContext;
-import org.apache.commons.daemon.DaemonInitException;
-
-import analysis.Analysis;
 
 public class AnalysisDaemon implements Daemon, Runnable {
 	private final String URL_STRING = "http://aistore.uos.ac.kr:50012/complete";

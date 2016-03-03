@@ -1,11 +1,7 @@
 package kr.ac.uos.ai.eventTransferService.debug.ui;
 
-import java.awt.BorderLayout;
-
-import javax.swing.BorderFactory;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
+import javax.swing.*;
+import java.awt.*;
 
 public class JsonPanel extends JPanel{
 	/**

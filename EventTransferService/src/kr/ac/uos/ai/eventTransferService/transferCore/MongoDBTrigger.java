@@ -1,23 +1,14 @@
 package kr.ac.uos.ai.eventTransferService.transferCore;
 
+import com.mongodb.*;
+import org.json.simple.parser.JSONParser;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.LinkedList;
-
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import com.mongodb.BasicDBObjectBuilder;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
-import com.mongodb.DBCursor;
-import com.mongodb.DBObject;
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
-import com.mongodb.WriteConcern;
 
 public class MongoDBTrigger implements Runnable{
 	private MongoClient 									mongoClient;

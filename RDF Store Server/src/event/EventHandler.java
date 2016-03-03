@@ -1,24 +1,23 @@
 package event;
 
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.sun.net.httpserver.Headers;
+import com.sun.net.httpserver.HttpExchange;
+import com.sun.net.httpserver.HttpHandler;
+import model.TransferContext;
+import utility.Constant;
+import utility.JenaQueryUtility;
+import utility.VirtuosoQuery;
+import utility.VirtuosoQueryUtility;
+import view.ServerLogger;
+
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.UUID;
-
-import utility.Constant;
-import utility.JenaQueryUtility;
-import utility.VirtuosoQuery;
-import utility.VirtuosoQueryUtility;
-import view.ServerLogger;
-import model.TransferContext;
-
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.sun.net.httpserver.Headers;
-import com.sun.net.httpserver.HttpExchange;
-import com.sun.net.httpserver.HttpHandler;
 
 import static utility.Constant.*;
 import static utility.JenaQuery.*;

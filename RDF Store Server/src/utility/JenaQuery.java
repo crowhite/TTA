@@ -1,8 +1,9 @@
 package utility;
 
+import utility.Constant;
+
 import java.util.Hashtable;
 
-import utility.Constant;
 import static utility.Constant.*;
 import static utility.VirtuosoQueryUtility.*;
 

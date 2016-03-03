@@ -1,16 +1,15 @@
 package control;
 
-import java.io.IOException;
-import java.net.InetSocketAddress;
-
 import com.sun.net.httpserver.HttpServer;
-
 import entity.EntityHandler;
 import event.EventHandler;
 import model.RAnalysisData;
 import utility.VirtuosoQuery;
 import utility.VirtuosoQueryUtility;
 import view.RDFMoniterManager;
+
+import java.io.IOException;
+import java.net.InetSocketAddress;
 
 public class RDFStoreServer {
 	private InetSocketAddress addr;

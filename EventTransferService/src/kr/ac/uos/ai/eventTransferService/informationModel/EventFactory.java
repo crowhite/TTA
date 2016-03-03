@@ -2,7 +2,6 @@ package kr.ac.uos.ai.eventTransferService.informationModel;
 
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.*;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.*;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;

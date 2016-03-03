@@ -1,21 +1,15 @@
 package kr.ac.uos.ai.eventTransferService.exchangemodel;
 
-import java.util.LinkedList;
-
-
-
-
-
-
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
-
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Entity;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.Event;
 import kr.ac.uos.ai.eventTransferService.informationModel.utilityPackage.RDFStringBuilder;
 import kr.ac.uos.ai.eventTransferService.transferCore.Configuration;
+
+import java.util.LinkedList;
 
 public class RDFMessage {
 	private LinkedList<Event> eventList;

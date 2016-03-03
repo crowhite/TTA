@@ -1,17 +1,13 @@
 package kr.ac.uos.ai.eventTransferService.transferCore;
 
-import java.util.LinkedList;
-
-import com.hp.hpl.jena.rdf.model.Model;
-
 import kr.ac.uos.ai.eventTransferService.exchangemodel.ExchangeManager;
 import kr.ac.uos.ai.eventTransferService.exchangemodel.RDFMessage;
 import kr.ac.uos.ai.eventTransferService.informationModel.CaliperEventParseException;
 import kr.ac.uos.ai.eventTransferService.informationModel.EventFactory;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.Event;
-import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.NavigationEvent;
-import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event.ReadingEvent;
 import kr.ac.uos.ai.eventTransferService.interactionModel.TransferManager;
+
+import java.util.LinkedList;
 
 public class EventTransferService{
 

@@ -1,12 +1,12 @@
 package analysis;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-
 import query.Constant;
 import query.VirtuosoQueryUtility;
 import rcaller.RCaller;
 import rcaller.RCode;
+
+import java.util.HashMap;
+import java.util.LinkedList;
 
 public class Analysis {
 	private final String RSCRIPT_PATH = "/usr/bin/Rscript";

@@ -1,20 +1,19 @@
 package entity;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.StringWriter;
-import java.util.Hashtable;
-
-import utility.JenaQueryUtility;
-import utility.VirtuosoQueryUtility;
-import view.ServerLogger;
-
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
+import utility.JenaQueryUtility;
+import utility.VirtuosoQueryUtility;
+import view.ServerLogger;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.StringWriter;
+import java.util.Hashtable;
 
 import static utility.Constant.*;
 import static utility.JenaQuery.*;

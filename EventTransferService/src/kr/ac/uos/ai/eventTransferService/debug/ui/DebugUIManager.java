@@ -1,10 +1,8 @@
 package kr.ac.uos.ai.eventTransferService.debug.ui;
 
 
-
-import java.awt.BorderLayout;
-
-import javax.swing.JFrame;
+import javax.swing.*;
+import java.awt.*;
 
 public class DebugUIManager extends JFrame {
 	/**

@@ -2,7 +2,6 @@ package kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event;
 
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.BookmarkAnnotation;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Frame;
-import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.HighlightAnnotation;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Person;
 import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.SoftwareApplication;
 import kr.ac.uos.ai.eventTransferService.informationModel.utilityPackage.RDFStringBuilder;

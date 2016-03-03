@@ -1,8 +1,8 @@
 package analysis;
 
-import java.util.LinkedList;
-
 import query.VirtuosoQueryUtility;
+
+import java.util.LinkedList;
 
 public class RFileInitializer {
 	public static void main(String[] ar) {

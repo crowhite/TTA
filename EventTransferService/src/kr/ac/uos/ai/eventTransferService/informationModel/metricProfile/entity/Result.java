@@ -3,7 +3,6 @@ package kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity;
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.Resource;
-
 import kr.ac.uos.ai.eventTransferService.informationModel.utilityPackage.RDFStringBuilder;
 
 public class Result extends Entity{

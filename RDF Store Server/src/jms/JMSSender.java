@@ -1,19 +1,11 @@
 package jms;
 
+import org.apache.activemq.ActiveMQConnectionFactory;
+import utility.Constant;
+
+import javax.jms.*;
 import java.util.Hashtable;
 import java.util.Map.Entry;
-
-import javax.jms.Connection;
-import javax.jms.ConnectionFactory;
-import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.MessageProducer;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-
-import org.apache.activemq.ActiveMQConnectionFactory;
-
-import utility.Constant;
 
 public class JMSSender {
 	private static Connection connection;
