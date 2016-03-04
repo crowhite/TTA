@@ -17,7 +17,7 @@ import java.util.Hashtable;
 
 import static utility.Constant.*;
 import static utility.JenaQuery.*;
-import static utility.VirtuosoQuery.*;
+import static utility.VirtuosoQuery.generateCountQuery;
 
 public class EntityHandler implements HttpHandler {
 

@@ -3,7 +3,10 @@ package view;
 import control.ButtonListener;
 import control.RDFStoreServer;
 
-public class ServerLogger extends JFrame{
+import javax.swing.*;
+import java.awt.*;
+
+public class ServerLogger extends JFrame {
 	private JButton start, stop,addRFile;
 	private RDFStoreServer server;
 	private static JTextArea log;

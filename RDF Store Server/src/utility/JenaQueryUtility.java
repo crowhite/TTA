@@ -5,7 +5,6 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.update.UpdateAction;
 import com.hp.hpl.jena.update.UpdateFactory;
 import com.hp.hpl.jena.update.UpdateRequest;
-import utility.Constant;
 
 import java.util.ArrayList;
 import java.util.List;

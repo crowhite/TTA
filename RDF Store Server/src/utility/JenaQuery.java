@@ -1,11 +1,9 @@
 package utility;
 
-import utility.Constant;
-
 import java.util.Hashtable;
 
 import static utility.Constant.*;
-import static utility.VirtuosoQueryUtility.*;
+import static utility.VirtuosoQueryUtility.INPUT_GRAPH;
 
 public class JenaQuery {
 	// Transfer Context Condition

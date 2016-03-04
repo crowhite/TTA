@@ -1,6 +1,9 @@
 package kr.ac.uos.ai.eventTransferService.debug.ui;
 
 
+import javax.swing.*;
+import java.awt.*;
+
 public class DebugUIManager extends JFrame {
 	/**
 	 * 

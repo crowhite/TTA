@@ -1,6 +1,9 @@
 package kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.event;
 
-import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.*;
+import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Assessment;
+import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Attempt;
+import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.Person;
+import kr.ac.uos.ai.eventTransferService.informationModel.metricProfile.entity.SoftwareApplication;
 import kr.ac.uos.ai.eventTransferService.informationModel.utilityPackage.RDFStringBuilder;
 
 

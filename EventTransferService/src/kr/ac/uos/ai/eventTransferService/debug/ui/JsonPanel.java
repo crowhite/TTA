@@ -1,6 +1,9 @@
 package kr.ac.uos.ai.eventTransferService.debug.ui;
 
-public class JsonPanel extends JPanel{
+import javax.swing.*;
+import java.awt.*;
+
+public class JsonPanel extends JPanel {
 	/**
 	 * 
 	 */

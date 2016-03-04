@@ -1,6 +1,9 @@
 package kr.ac.uos.ai.eventTransferService.debug.ui;
 
-public class RdfPanel extends JPanel{
+import javax.swing.*;
+import java.awt.*;
+
+public class RdfPanel extends JPanel {
 	/**
 	 * 
 	 */
