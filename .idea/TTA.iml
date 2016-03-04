@@ -11,6 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="commons-codec-1.6" level="project" />
+    <orderEntry type="library" name="EventTransferServiceLibrary" level="project" />
+    <orderEntry type="library" name="AnalysisDaemonLibrary" level="project" />
+    <orderEntry type="library" name="RDFStoreServerLibrary" level="project" />
   </component>
 </module>

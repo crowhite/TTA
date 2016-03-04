@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="commons-codec-1.6">
+  <library name="EventTransferServiceLibrary">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/EventTransferService/lib/commons-codec-1.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/EventTransferService/lib/commons-csv-1.0.jar!/" />

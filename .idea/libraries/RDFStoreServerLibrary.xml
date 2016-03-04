@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="RDFStoreServerLibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/activemq-all-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/commons-csv-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/httpclient-4.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/httpclient-cache-4.2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/httpcore-4.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jackson-annotations-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jackson-core-2.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jackson-databind-2.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jcl-over-slf4j-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jena-arq-2.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jena-core-2.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jena-iri-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jena-tdb-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/jsonld-java-0.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/libthrift-0.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/slf4j-api-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/slf4j-log4j12-1.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/xercesImpl-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/RDF Store Server/library/xml-apis-1.4.01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

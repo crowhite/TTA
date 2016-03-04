@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="AnalysisDaemonLibrary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Analysis Daemon/lib/activemq-all-5.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Analysis Daemon/lib/AnalysisDaemon.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Analysis Daemon/lib/commons-daemon-1.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Analysis Daemon/lib/RCaller-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Analysis Daemon/lib/test.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>데모</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+
+	<script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+
+	<script>
+                        var socket = io.connect('http://aistore.uos.ac.kr:50012');
+
+                        socket.on('PageRank', function(rank) {
+				for(var i = 1; i < rank.length; i++) {
+					var page = rank[i].replace(/"/g, '');
+					page = page.split(',');
+
+					var element;
+					switch(page[1]) {
+						case '1' : 
+							element = document.getElementById('page_rank1');
+							break;
+						case '2' :
+							element = document.getElementById('page_rank2');
+							break;
+						case '3' :
+							element = document.getElementById('page_rank3');
+							break;
+						case '4' :
+							element = document.getElementById('page_rank4');
+							break;
+						case '5' :
+							element = document.getElementById('page_rank5');
+							break;
+					}
+
+					element.innerHTML = page[0];
+				}
+                        });
+
+			socket.on('PageViews', function(pageViews) {
+				document.getElementById('pageViews').innerHTML = pageViews;
+			});
+
+			socket.on('SessionData', function(total, average, period) {
+				document.getElementById('total').innerHTML = total;
+				document.getElementById('average').innerHTML = average;
+				document.getElementById('period').innerHTML = period;
+			});
+
+			socket.on('PageViewGraph', function() {
+				document.getElementById('page_view_graph').innerHTML = '<iframe scrolling="no" src="page_view_graph.html"></iframe>';
+			});
+
+			socket.on('ScoreGraph', function() {
+			});
+
+                        socket.on('redrow', function() {
+                                socket.emit('analysis')
+                        });
+                </script>
+</head>
+<body>
+<div id="title">Summary for [name]</div>
+<div class="container table">
+	<div id="chart_table">
+		<table> <!--- 표 -->
+			<tr>
+		        	<th class="first" colspan="2">	Subscription Period</th>
+        			<th class="first" colspan="2">	Page Views</th>
+				<th class="first" colspan="2">	Total Session</th>
+				<th class="first" colspan="2">	Average Session</th>
+			</tr>
+			<tr>		   
+		 <!--- 이하 내용 -->         
+				<td class="first data" id="period"> subscription period</td>
+			        <td class="first"> DAYS</td>
+				<td class="first data" id="pageViews"> page views</td>
+			        <td class="first"> PAGES</td>
+				<td class="first data" id="total"> total session</td>
+			        <td class="first"> MIN</td>
+				<td class="first data" id="average"> average session</td>
+			        <td class="first"> MIN</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<div class="container graph"> 
+	<div class="graph line" id="page_view_graph">
+	</div>
+	<div class="graph pie">
+	</div>
+</div>
+	<hr>
+<div class="container table">
+	<div class="page stats">
+		<b>Top 5 most viewed Page</b>
+		<table>
+			<tr>
+				<th class="second">1</th>
+				<td class="second" id="page_rank1"></td>
+			</tr>
+			<tr>
+				<th class="second">2</th>
+				<td class="second" id="page_rank2"></td>
+			</tr>
+			<tr>
+				<th class="second">3</th>
+				<td class="second" id="page_rank3"></td>
+			</tr>
+			<tr>
+				<th class="second">4</th>
+				<td class="second" id="page_rank4"></td>
+			</tr>
+			<tr>
+				<th class="second">5</th>
+				<td class="second" id="page_rank5"></td>
+			</tr>
+		</table>
+	</div>
+	<div class="user stats">
+		<b>Most active Users</b>
+		<table>
+			<tr>
+				<th class="second">1</th>
+				<td class="second"></td>
+		                <td class="second"></td>
+			</tr>
+			<tr>
+				<th class="second">2</th>
+				<td class="second"></td>
+		                <td class="second"></td>
+			</tr>
+			<tr>
+				<th class="second">3</th>
+				<td class="second"></td>
+		                <td class="second"></td>
+			</tr>
+			<tr>
+				<th class="second">4</th>
+				<td class="second"></td>
+		                <td class="second"></td>
+			</tr>
+			<tr>
+				<th class="second">5</th>
+				<td class="second"></td>
+		                <td class="second"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</body>
+</html>
