@@ -2,8 +2,10 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="activemq-all-5.11.1.jar"/>
-	<classpathentry kind="lib" path="commons-daemon-1.0.5.jar"/>
-	<classpathentry kind="lib" path="RCaller-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-all-5.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/AnalysisDaemon.jar"/>
+	<classpathentry kind="lib" path="lib/commons-daemon-1.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/RCaller-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/test.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
