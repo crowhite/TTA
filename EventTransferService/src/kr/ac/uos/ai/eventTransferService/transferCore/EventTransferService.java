@@ -27,6 +27,7 @@ public class EventTransferService{
 		
 	}
 	
+	@SuppressWarnings("unused")
 	public void runTransferService() {
 		int count = 0;
 		String eventString = null;
@@ -88,7 +89,8 @@ public class EventTransferService{
 		if(ar.length >= 1){
 			input = ar[0];
 		}else{
-			input = "mongodb://172.16.165.30:50015";
+//			input = "mongodb://172.16.165.30:50015";
+			input = Configuration.MONGO_DB_LOCATION;
 		}
 		
 		EventTransferService eventTransferService = new EventTransferService(input);

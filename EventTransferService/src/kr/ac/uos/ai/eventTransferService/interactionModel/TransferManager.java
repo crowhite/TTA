@@ -20,23 +20,22 @@ import java.net.URL;
 
 
 public class TransferManager {
-	
+		
+	private String sessionID;
 	
 	public void transferMessage(RDFMessage msg){
-		String sessionId;
+//		String sessionId;
 		
 		System.out.println(msg.toRDFString());
 		for(int i = 0 ;i < msg.getEntityList().size();i++){
 			sendEntity(msg.getEntityList().get(i));
 		}
-		
-		sessionId = openSession(msg);
-		
+
+		this.sessionID = openSession(msg);
 	
 		for(int i =0; i < msg.getEventList().size();i++){
-			sendEvent(msg.getEventList().get(i),sessionId);
-		}
-		
+			sendEvent(msg.getEventList().get(i),this.sessionID);
+		}	
 	}
 	
 	public String openSession(RDFMessage msg){
@@ -49,7 +48,6 @@ public class TransferManager {
 			Model model = ModelFactory.createDefaultModel();
 
 			model.read(new ByteArrayInputStream(modelText.getBytes()), null, "Turtle");
-			
 			
 			ByteArrayOutputStream out = new ByteArrayOutputStream();
 			
@@ -73,8 +71,6 @@ public class TransferManager {
 			conn.setUseCaches(false);
 			DataOutputStream writer = new DataOutputStream(conn.getOutputStream());
 			writer.write(postData);
-
-			
 			
 			String line;
 			BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
@@ -144,9 +140,7 @@ public class TransferManager {
 					lastLine = line;
 					line = reader.readLine();
 					
-				}
-				
-				
+				}	
 			}
 			writer.close();
 			reader.close();
